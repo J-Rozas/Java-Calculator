@@ -26,4 +26,9 @@ public class CalculatorTest {
     public void canMultiply() {
         assertEquals(72, calculator.multiply(8, 9));
     }
+
+    @Test
+    public void canDivide() {
+        assertEquals(3.5, calculator.divide(7, 2));
+    }
 }
